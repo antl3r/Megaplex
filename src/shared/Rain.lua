@@ -32,7 +32,7 @@ function RainModule.RainBox.New()
             Speed = NumberRange.new(150,150),
             Rate = 400,
             Lifetime = NumberRange.new(0.5,0.5),
-            Enabled = false,
+            Enabled = true,
             Parent = NewEmitterPart
         }
     )
